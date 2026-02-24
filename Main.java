@@ -26,12 +26,16 @@ class Food implements Serializable
             case 3:price=quantity*70;
                 break;
             case 4:price=quantity*30;
+
+            case 5:price=quantity*20;
                 break;
         }
     }
 }
 
 // starting
+//ending 
+//writing for testing only
 class Singleroom implements Serializable
 {
     String name;
